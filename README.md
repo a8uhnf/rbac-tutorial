@@ -49,7 +49,7 @@ kubectl config set-credentials hanifa-test --client-certificate=hanifa-test.crt 
 
 kubectl config set-context hanifa-test --cluster=hanifa-test --user=hanifa-test
 
-kubectl --kubeconfig ~/.kube/config-jakub config use-context hanifa-test
+kubectl config use-context hanifa-test
 
 ```
 
