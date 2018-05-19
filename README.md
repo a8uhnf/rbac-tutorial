@@ -30,6 +30,11 @@ spec:
   - client auth
 ```
 
+Use below command to encrypt csr into one line.
+```
+cat hanifa-test.csr | base64 | tr -d '\n'
+```
+
 ```
 kubectl certificate approve user-request-hanifa-test
 ```
